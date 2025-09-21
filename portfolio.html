@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Editkaro.in — Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>window.APP_ENDPOINT = "https://script.google.com/macros/s/AKfycbxmRvcnzN81CNla-4ZIRi9gl_8Grbd5Z1_Vs2uckmHpQ-XEfALMQvC5AyUHtmrrE0IQBg/exec";</script>
+</head>
+<body>
+<header class="site-header"><div class="brand">Editkaro.in</div></header>
+<main class="container">
+  <h2 style="text-align:center;margin-top:14px">Our Work — Portfolio</h2>
+  <div class="filter-bar" style="justify-content:center">
+    <button class="filter-btn active" data-cat="all">All</button>
+    <button class="filter-btn" data-cat="short">Short Form</button>
+    <button class="filter-btn" data-cat="long">Long Form</button>
+    <button class="filter-btn" data-cat="gaming">Gaming</button>
+    <button class="filter-btn" data-cat="football">Football</button>
+    <button class="filter-btn" data-cat="ecom">eCommerce</button>
+    <button class="filter-btn" data-cat="documentary">Documentary</button>
+    <button class="filter-btn" data-cat="color">Color Grading</button>
+    <button class="filter-btn" data-cat="anime">Anime</button>
+    <button class="filter-btn" data-cat="ads">Ads</button>
+  </div>
+
+  <section class="card-grid">
+    <!-- repeat card structure for each item; use different ?random to mock -->
+    <div class="card" data-category="short">
+      <img class="thumb" src="https://picsum.photos/600/400?random=11" alt="">
+      <div class="card-body"><div class="meta">Short-form</div><h3>Reel — Product Launch</h3></div>
+    </div>
+
+    <div class="card" data-category="gaming">
+      <img class="thumb" src="https://picsum.photos/600/400?random=12" alt="">
+      <div class="card-body"><div class="meta">Gaming</div><h3>Highlight Montage</h3></div>
+    </div>
+
+    <div class="card" data-category="ecom">
+      <img class="thumb" src="https://picsum.photos/600/400?random=13" alt="">
+      <div class="card-body"><div class="meta">eCommerce</div><h3>Product Ad — Lifestyle</h3></div>
+    </div>
+
+    <div class="card" data-category="documentary">
+      <img class="thumb" src="https://picsum.photos/600/400?random=14" alt="">
+      <div class="card-body"><div class="meta">Documentary</div><h3>Short Doc — Local Hero</h3></div>
+    </div>
+
+    <div class="card" data-category="anime">
+      <img class="thumb" src="https://picsum.photos/600/400?random=15" alt="">
+      <div class="card-body"><div class="meta">Anime</div><h3>Stylized Anime Edit</h3></div>
+    </div>
+
+    <div class="card" data-category="football">
+      <img class="thumb" src="https://picsum.photos/600/400?random=16" alt="">
+      <div class="card-body"><div class="meta">Football</div><h3>Match Highlights</h3></div>
+    </div>
+  </section>
+</main>
+
+<div id="lightbox" class="lightbox"><img alt="Preview"><span class="lb-close" style="position:absolute;top:22px;right:36px;font-size:28px;cursor:pointer;color:#fff;">✕</span></div>
+<script src="assets/js/main.js"></script>
+<footer class="footer">© Editkaro.in</footer>
+</body>
+</html>
+

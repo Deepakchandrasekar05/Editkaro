@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Editkaro.in — Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>window.APP_ENDPOINT = "https://script.google.com/macros/s/AKfycbxmRvcnzN81CNla-4ZIRi9gl_8Grbd5Z1_Vs2uckmHpQ-XEfALMQvC5AyUHtmrrE0IQBg/exec";</script>
+</head>
+<body>
+  <header class="site-header"><div class="brand">Editkaro.in</div></header>
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <h1>Social media marketing & video editing — craft that converts</h1>
+        <p>Short films, ads, color grading, gaming edits — we make your brand click.</p>
+        <a class="cta" href="portfolio.html">View Portfolio</a>
+      </div>
+      <div style="min-width:320px;max-width:420px">
+        <div class="form">
+          <h3>Join our list — exclusive tips & offers</h3>
+          <form id="email-form">
+            <input name="email" type="email" placeholder="Your email" required>
+            <div style="margin-top:12px;display:flex;gap:8px">
+              <button class="btn" type="submit">Subscribe</button>
+            </div>
+          </form>
+          <p style="font-size:.85rem;color:var(--muted);margin-top:10px">We respect your privacy.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="lightbox" class="lightbox"><img alt="Preview"><span class="lb-close" style="position:absolute;top:22px;right:36px;font-size:28px;cursor:pointer;color:#fff;">✕</span></div>
+  <script src="assets/js/main.js"></script>
+  <footer class="footer">© <span id="year"></span> Editkaro.in — All rights reserved</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
